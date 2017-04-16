@@ -1,0 +1,57 @@
+/*
+To create internal frames in Java you may use javax.swing.JInternalFrame class.
+This class has various constructors using which you can create frames within a frame with
+ different features like maximizable/not maximizable internal frame, 
+ resizable/not resizable internal frame, closable/not closable internal frame.
+
+*/
+
+/*
+ InputStream oin 
+ An I/O Stream represents an input source or an output destination.
+ A stream can represent many different kinds of sources and destinations, 
+ including disk files, devices, other programs, and memory arrays.
+ 
+ 
+ The read() method of an InputStream returns an int which contains the byte value of the byte read
+ 
+ The read(byte[], int offset, int length) method also reads bytes into a byte array, 
+ but starts at offset bytes into the array, and reads a maximum of length bytes into the array 
+ from that position. Again, 
+ the read(byte[], int offset, int length) method returns an int
+ telling how many bytes were actually read into the array, so remember to check this value 
+ before processing the read bytes.
+ 
+ 
+ If the read() method returns -1, the end of stream has been reached, 
+ meaning there is no more data to read in the InputStream. 
+ That is, -1 as int value, not -1 as byte or short value.
+ */
+ 
+ 
+ /*
+  Images are described by a width and a height, measured in pixels, 
+  and have a coordinate system that is independent of the drawing surface*/
+ 
+ /*
+ static int SCALE_FAST -- Choose an image-scaling algorithm that gives higher priority to 
+ scaling speed than smoothness of the scaled image
+ */
+ 
+ /*
+  Mouse-motion events notify when the user uses the mouse (or a similar input device)
+  to move the onscreen cursor. For information on listening for other kinds of mouse events,
+  such as clicks*/
+  
+  /*
+  If an application requires the detection of both mouse events and mouse-motion events, 
+  use the MouseInputAdapter class, which implements the MouseInputListener a convenient 
+  interface that implements both the MouseListener and MouseMotionListener interfaces.
+  */
+  
+  /*
+  The Java KeyListener is notified whenever you change the state of key.
+   It is notified against KeyEvent.
+  */
+ 
+ 

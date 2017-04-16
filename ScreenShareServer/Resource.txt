@@ -1,0 +1,54 @@
+/*	Java Robot class here demonstrates how to use the mouse and generate keyboard keystrokes
+ into other system windows with the Java Robot class*/
+
+/*
+	A Rectange object specifics a rectangular area in the coordinate system.
+ Its x and y fields specify the top-left corner coordinate.
+ Its width and height fields specify the width and height of the rectangle, respectively.
+ */
+
+/*
+	Socket classes are used to represent the connection between a client program and a server program.
+*/
+
+/*
+	The GraphicsEnvironment class describes the collection of GraphicsDevice objects and Font objects available to a
+ Java(tm) application on a particular platform.The resources in this GraphicsEnvironment might be local or on a remote machine. 
+ */
+ /*
+ 	GraphicsDevice objects can be screens,printers or image buffers and are the destination of Graphics2D drawing methods.
+ Each GraphicsDevice has a number of GraphicsConfiguration objects associated with it. 
+ These objects specify the different configurations in which the GraphicsDevice can be used.
+ */
+
+
+/*
+The GraphicsDevice class describes the graphics devices that might be available in a particular graphics environment. 
+ These include screen and printer devices. 
+*/
+ 
+ /*
+In this section, you will learn how to obtain the height and width of the specific screen.
+The Toolkit class has a static method called getDefaultToolkit() 
+and can be used to obtain the default Toolkit object for the user's system, 
+which contains information about the user's specific machine. The method 
+getScreenSize() return a Dimension object which contains the width and height of the screen.
+*/
+
+
+/*
+	In this post, I am going to show you how to take a screen shot and save it to your computer
+ using Java API. java.awt.Robot class provides createScreenCapture method to capture a screen shot.
+ */
+ 
+ 
+ /*
+ Take Fullscreen Screenshot
+ The Toolkit.getDefaultToolkit().getScreenSize() gets the dimensions of the screen.
+ We use these dimensions to create a java.awt.Rectangle instance.
+ We create a new instance of the java.awt.Robot class and call the createScreenCapture() 
+ method and pass the perviously created rectangle instance as the argument.
+ This creates a BufferedImage, which we pass as the first argument in the 
+ ImageIO.write() method. The second argument we pass in the file format. 
+ In the third and last argument, we pass an FileOutputStream that’ll write the image to disk.
+ */
